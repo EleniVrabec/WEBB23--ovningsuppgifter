@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Uppgift4</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+    <body>
+        <!-- <img src="bild\2.jpg" alt="">-->
+
+        <div class="booking-form">
+            <div class="booking-form-box">
+                <div class="radio-btn">
+                    <input
+                        type="radio"
+                        class="btn"
+                        name="check"
+                        checked="checked"
+                    /><span>Add Flight</span>
+                    <input type="radio" class="btn" name="check" /><span
+                        >Add Car</span
+                    >
+                    <input type="radio" class="btn" name="check" /><span
+                        >No preferences</span
+                    >
+                </div>
+            </div>
+            <label>Traveling From</label>
+            <input type="text" class="form-control" placeholder="City" />
+            <br />
+            <label>Going To</label>
+            <input type="text" class="form-control" placeholder="City" />
+
+            <div class="input-grp">
+                <label>Taveling date</label>
+                <input type="date" class="form-control select-date" />
+            </div>
+
+            <div class="input-grp">
+                <label>Return date</label>
+                <input type="date" class="form-control select-date" />
+            </div>
+
+            <div class="input-grp">
+                <label>Adults</label>
+                <input type="number" class="form-control" value="1" />
+            </div>
+
+            <div class="input-grp">
+                <label>Child</label>
+                <input type="number" class="form-control" value="0" />
+            </div>
+
+            <div class="row">
+                <input type="submit" value="Submit" />
+            </div>
+        </div>
+    </body>
+</html>

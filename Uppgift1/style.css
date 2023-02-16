@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#Wrapper {
+    margin: auto;
+    width: 70%;
+    height: 1200px;
+
+    padding: 20px;
+    background-color: rgb(249, 247, 216);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgb(16, 19, 26);
+}
+div {
+    display: inline-block;
+    gap: 20px;
+}
+.Ingridienser {
+    margin: 20px;
+    float: left;
+    display: block;
+}
+ul {
+    display: block;
+}
+li {
+    margin: 10px;
+}
+.Instrictioner {
+    margin: 20px;
+    float: left;
+    display: inline-block;
+}
+
+img {
+    width: 250px;
+    height: 300px;
+    float: left;
+    box-shadow: 0 5px 10px rgb(16, 19, 26);
+    border-radius: 30px;
+}
+h1 {
+    align-items: center;
+    margin: 50px;
+    align-items: center;
+}
+p {
+    align-items: center;
+    margin: 50px;
+    float: left;
+}
